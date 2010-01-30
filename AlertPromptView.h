@@ -11,7 +11,7 @@
 @interface AlertPromptView : UIAlertView 
 {
     UITextField *textField;
-	NSString *enteredText;
+    NSString *enteredText;
 }
 
 @property (nonatomic, retain) UITextField *textField;
